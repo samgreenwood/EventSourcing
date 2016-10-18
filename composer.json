@@ -1,0 +1,20 @@
+{
+    "name": "samgreenwood/eventsourcing",
+    "description": "Simple Event Sourcing",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sam Greenwood",
+            "email": "sam@samgreenwood.me"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "SamGreenwood\\EventSourcing\\": "src"
+        }
+    },
+    "require": {
+        "doctrine/dbal": "^2.5",
+        "ramsey/uuid": "^3.5"
+    }
+}
